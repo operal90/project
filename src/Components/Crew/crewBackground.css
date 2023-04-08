@@ -1,0 +1,29 @@
+/* phones */
+@media (max-width: 767px) {
+    .crewbackground {
+      background-image: url(../../assets/crew/background-crew-mobile.jpg);
+      /* height: 100vh; */
+      background-position: center;
+      background-size: cover;
+      }
+  }
+  /* tabs */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .crewbackground {
+      background-image: url(../../assets/crew/background-crew-tablet.jpg);
+      /* height: 100vh; */
+      background-position: center;
+      background-size: cover;
+    }
+  }
+  /* laptops */
+  @media (min-width: 992px) {
+    .crewbackground {
+      background-image: url(../../assets/crew/background-crew-desktop.jpg);
+      height: 100vh;
+      background-position: center;
+      background-size: cover;
+      /* overflow-y: scroll; */
+    }
+  }
+  

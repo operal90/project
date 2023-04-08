@@ -1,0 +1,29 @@
+/* phones */
+@media (max-width: 767px) {
+    .techbackground {
+      background-image: url(../../assets/technology/background-technology-mobile.jpg);
+      /* height: 100vh; */
+      background-position: center;
+      background-size: cover;
+      }
+  }
+  /* tabs */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .techbackground {
+      background-image: url(../../assets/technology/background-technology-tablet.jpg);
+      /* height: 100vh; */
+      background-position: center;
+      background-size: cover;
+    }
+  }
+  /* laptops */
+  @media (min-width: 992px) {
+    .techbackground {
+      background-image: url(../../assets/technology/background-technology-desktop.jpg);
+      height: 100vh;
+      background-position: center;
+      background-size: cover;
+      /* overflow-y: scroll; */
+    }
+  }
+  
